@@ -8,11 +8,12 @@ import {
   SuperQuality,
   CustomerReviews,
 } from "./sections";
+import NavBar from "./components/NavBar";
 
 const App = () => (
   <main className=" relative">
-    Navbar
-    <section className=" xl:p-1 wide:sm:pr-10 pr-8 wide:sm:pt-24 pt-12">
+    <NavBar />
+    <section className=" xl:p-1 wide:sm:pr-10 pr-8 wide:sm:pt-24 pt-12  w-full">
       <Hero />
     </section>
     <section className="sm:px-16 px-8 sm:py-24 py-12">
