@@ -13,7 +13,7 @@ import NavBar from "./components/NavBar";
 const App = () => (
   <main className=" relative">
     <NavBar />
-    <section className=" xl:p-1 wide:sm:pr-10 pr-8 wide:sm:pt-24 pt-12  w-full">
+    <section className=" xl:padding-l wide:padding-r padding-b">
       <Hero />
     </section>
     <section className="sm:px-16 px-8 sm:py-24 py-12">
