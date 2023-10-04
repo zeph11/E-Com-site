@@ -1,16 +1,17 @@
 const CustomButton = ({
   label,
   iconUrl,
-  backgroundColor,
-  textColor,
-  borderColor,
+  // backgroundColor,
+  // textColor,
+  // borderColor,
+  fullWidth
 }) => {
   return (
-    <section className="bg-coral-red px-6 py-3 rounded-full">
+    <section className="bg-coral-red px-6 py-3 rounded-full ">
       <button
         className={`flex justify-center
       
-      items-center gap-2 font-monserrat text-lg leading-none text-white  `}
+      items-center gap-2 font-monserrat text-lg leading-none text-white  ${fullWidth && 'w-full'}`}
       >
         {label}
         {iconUrl && (
