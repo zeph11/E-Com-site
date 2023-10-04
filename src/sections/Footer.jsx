@@ -1,3 +1,4 @@
+import { copyrightSign } from "../assets/icons";
 import { footerLogo } from "../assets/images";
 import { footerLinks, socialMedia } from "../constants";
 
@@ -33,9 +34,12 @@ const Footer = () => {
       </div>
 
       <div className="flex justify-between text-white-400 mt-24 max-sm:flex-col max-sm: items-center">
-        <div className="flex flex-1 justify start ">
-          <img/>
+        <div className="flex flex-1 justify start items-center gap-2 font-montserrat">
+          <img src={copyrightSign}
+          width={20} height={20} className="rounded-full m-0"/>
+          <p> Copyright. All rights reserved</p>
         </div>
+        <div> Terms and Condition</div>
       </div>
     </footer>
   );
