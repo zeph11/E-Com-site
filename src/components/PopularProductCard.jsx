@@ -1,8 +1,11 @@
 import { star } from "../assets/icons";
 const PopularProductCard = ({ imgURL, name, price }) => {
   return (
-    <div className="flex flex-1 flex-col w-full max-smLw-full">
-      <img src={imgURL} alt={name} className="w=[280px] h-[280px]"></img>
+    <div className="flex flex-1 flex-col w-full max-sm:w-full ">
+      <div className="flex justify-start">
+      <img src={imgURL} alt={name} className="w=[280px] h-[280px] flex justify-start"></img>
+
+      </div>
       <div className="mt-8 flex justify-start gap-2.5">
         <img src={star} alt="rating" width={24} height={24} />
         <p className="font-montserrat leading-normal text-slate-gray">4.5</p>

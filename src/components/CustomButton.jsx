@@ -7,7 +7,7 @@ const CustomButton = ({
   fullWidth
 }) => {
   return (
-    <section className="bg-coral-red px-6 py-3 rounded-full ">
+    <section className="bg-coral-red px-7 py-4 rounded-full ">
       <button
         className={`flex justify-center
       

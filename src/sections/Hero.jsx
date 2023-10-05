@@ -10,10 +10,11 @@ const Hero = () => {
   return (
     <section
       id="home"
-      className="w-full flex xl:flex-row  flex-col justify-center min-h-screen gap-10 max-container sm:mt-4"
+      className="w-full flex xl:flex-row  flex-col justify-center min-h-screen gap-10 max-container sm:mt-4 scroll-smooth"
+      
     >
       <div className="relative xl:w-2/5 flex flex-col justify-center items-start w-full max-xl:padding-x pt-28">
-        <p className="text=xl text-coral-red font-montserrat">
+        <p className="text-xl text-coral-red font-montserrat">
           Our Summer Collection
         </p>
         <h1 className="mt-10 font-palanquin text-8xl max-sm:text-[72px] max-sm:leading-[82px]">
@@ -38,7 +39,8 @@ const Hero = () => {
           ))}
         </div>
       </div>
-      <div className="relative flex-1 flex justify-center items-center xl:min-h-screen max-xl:py-40 bg-primary bg-hero bg-cover bg-center">
+      <div 
+      className="relative flex-1 flex justify-center items-center xl:min-h-screen max-xl:py-40 bg-primary bg-hero bg-cover bg-center ">
         <img
           src={bigShoeImage}
           alt="big shoe collection"

@@ -17,6 +17,25 @@ export default {
       '8xl': ['96px', '106px']
     },
     extend: {
+
+      keyframes: {
+        swing: {
+          '0%': {
+            transform: 'scale(0.5) translateY(-50px)',
+            opacity: 0
+          },
+          '100%': {
+            transform: 'scale(1) translateY(0)',
+            opacity: 1
+          },
+
+        }
+
+      },
+      animation: {
+        'swing': 'swing 0.3s ease-in-out',
+        'swingback': 'swing 0.5s ease-in-out reverse',
+      },
       fontFamily: {
         palanquin: ['Palanquin', 'sans-serif'],
         montserrat: ['Montserrat', 'sans-serif'],

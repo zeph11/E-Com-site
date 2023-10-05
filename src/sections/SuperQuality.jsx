@@ -1,5 +1,6 @@
 import CustomButton from "../components/CustomButton";
 import { shoe8 } from "../assets/images";
+import { arrowRight } from "../assets/icons";
 const SuperQuality = () => {
   return (
     <section
@@ -16,8 +17,8 @@ const SuperQuality = () => {
         <p className="text-slate-gray text-lg mt-6 mb-14 sm:max-w-sm">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, soluta?
           Nobis inventore quis delectus at, quae eligendi deserunt laudantium
-          <div className="mt-11 ">
-            <CustomButton label="View Details" />
+          <div className="mt-11 flex  ">
+            <CustomButton label="View Details" iconUrl={arrowRight} />
           </div>
         </p>
       </div>
